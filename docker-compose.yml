@@ -1,0 +1,21 @@
+version: '2.1'
+
+services:
+  couchdb:
+    image: couchdb:2.3.0
+    environment:
+      - COUCHDB_USER=admin
+      - COUCHDB_PASSWORD=admin
+    ports:
+      - '5984:5984'
+
+  node:
+    image: node:10
+    command: npm start
+    working_dir: '/app'
+    volumes:
+      - '.:/app'
+    ports:
+      - '4242:3000'
+    depends_on:
+      - couchdb
