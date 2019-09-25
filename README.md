@@ -1,4 +1,3 @@
-
 # Reactive Beers
 
 Reactive Beers is an example application using CouchDB and PouchDB.
@@ -23,7 +22,7 @@ make test
 
 ## Contributing
 
-1. Fork it ( https://github.com/marmelab/reversi-reason/fork )
+1. Fork it ( https://github.com/marmelab/reactive-beers/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
