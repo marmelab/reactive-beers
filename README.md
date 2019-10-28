@@ -1,6 +1,7 @@
 # Reactive Beers
 
 Reactive Beers is an example application using CouchDB and PouchDB.
+Here is the corresponding blog post: https://marmelab.com/blog/2019/09/25/couchdb_pouchdb_serious_firebase_alternative.html
 
 ## Installation
 
